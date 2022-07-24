@@ -37,7 +37,7 @@ footer {
     margin: 50px;
 }
 
-.antipodal {
+div .Antipodal {
     color: var(--dark-color);
     transform: scale(-1,-1)
 }
@@ -112,9 +112,9 @@ input[type=button]{
         -o-transform: rotate(90deg);
         transform: rotate(90deg)
       }
-    .antipodal, .chosen {text-align: right; margin: 10px; color: var(--light-color-2)}
+    div .Antipodal, .Chosen {text-align: right; margin: 10px; color: var(--light-color-2)}
     
-    footer {
+    .Footer {
         font-size: smaller;
         margin: 10px;
     }
