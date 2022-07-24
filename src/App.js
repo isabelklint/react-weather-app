@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css';
-import './Top.js';
-import './Antipodal.js';
-import './Chosen.js';
-import './Footer.js';
+import Top from './Top.js';
+import Antipodal from './Antipodal.js';
+import Chosen from './Chosen.js';
+import Footer from './Footer.js';
 
 export default function App() {
   return (
