@@ -1,4 +1,8 @@
-<div className="col-12 col-md-4 chosen">
+import React from "react";
+
+export default function Chosen() {
+    return (
+<div className="col-12 col-md-4 Chosen">
     <div>
         <h2 className="big">Your City</h2>
         <span><i className="fa-solid fa-rainbow big" /></span>
@@ -23,3 +27,5 @@
     <div className="col" id="lastFiveDays">Last five days</div>
     </div>
 </div>
+    );
+  }

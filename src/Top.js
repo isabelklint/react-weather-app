@@ -1,4 +1,7 @@
+import React from "react";
 
+export default function Top() {
+    return (
 <div className="Top">
     <div className="row d-flex  align-items-baseline">
         <div className="col-sm-12 col-md-4 col-lg-6 antipode">
@@ -21,3 +24,5 @@
         </div>
     </div>
 </div>
+    );
+  }
