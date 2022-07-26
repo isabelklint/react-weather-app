@@ -1,31 +1,21 @@
 import React from "react";
+import LastFiveDays from './LastFiveDays.js';
 
 export default function Chosen() {
     return (
-<div className="col-12 col-md-4 Chosen">
-    <div>
-        <h2 className="big">Your City</h2>
-        <span><i className="fa-solid fa-rainbow big" /></span>
-        <h2>
-            <span>Temp </span>
-            <span>33°C</span>
-            <span> | </span>
-            <span>88°F</span>
-        </h2>
-        <p>Mon 2:33PM</p>
-    </div>
-    <div className="row">
-    <div className="col">
-        <p>Description
-        </p>
-        <p>Humidity</p>
-        <p>Wind</p>
-    </div>
-    </div>
-    <div className="row">
-    <div className="col" />
-    <div className="col" id="lastFiveDays">Last five days</div>
-    </div>
-</div>
+        <div className="col-12 col-md-5 Chosen">
+            <h2 className="yourCity big">Your City</h2>
+            <span><i className="fa-solid fa-rainbow big" /></span>
+            <h2>
+                <span className="Temp">Temp </span>
+                <span className="Centigrade">33°C</span>
+                <span className="Bar"> | </span>
+                <span className="Fahrenheit">88°F</span>
+            </h2>
+            <p className="DayTime">Mon 2:33PM</p>
+            <p className="Description">Description</p>
+            <p><span className="Humidity">Humidity</span> • <span className="Wind">Wind</span></p>
+            <LastFiveDays />
+        </div>
     );
   }
